@@ -27,7 +27,7 @@ public class TableColumnModel {
      *         The number of columns.
      */
     public TableColumnModel(final int columnCount) {
-        this.columnWeights = new HashMap<>();
+        this.columnWeights = new HashMap<Integer, Integer>();
         this.columnCount = columnCount;
     }
 

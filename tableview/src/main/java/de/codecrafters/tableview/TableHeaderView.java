@@ -21,7 +21,7 @@ import de.codecrafters.tableview.listeners.TableHeaderClickListener;
  */
 class TableHeaderView extends LinearLayout {
 
-    private final Set<TableHeaderClickListener> listeners = new HashSet<>();
+    private final Set<TableHeaderClickListener> listeners = new HashSet<TableHeaderClickListener>();
     protected TableHeaderAdapter adapter;
 
     /**

@@ -24,8 +24,8 @@ class SortableTableHeaderView extends TableHeaderView {
 
     private static final String LOG_TAG = SortableTableHeaderView.class.toString();
 
-    private final Map<Integer, ImageView> sortViews = new HashMap<>();
-    private final Map<Integer, SortState> sortStates = new HashMap<>();
+    private final Map<Integer, ImageView> sortViews = new HashMap<Integer, ImageView>();
+    private final Map<Integer, SortState> sortStates = new HashMap<Integer, SortState>();
     private SortStateViewProvider sortStateViewProvider = SortStateViewProviders.darkArrows();
 
 

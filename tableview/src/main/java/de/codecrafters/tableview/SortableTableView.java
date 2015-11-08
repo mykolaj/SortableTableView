@@ -158,7 +158,7 @@ public class SortableTableView<T> extends TableView<T> {
      */
     private class SortingController implements TableHeaderClickListener {
 
-        private final Map<Integer, Comparator<T>> comparators = new HashMap<>();
+        private final Map<Integer, Comparator<T>> comparators = new HashMap<Integer, Comparator<T>>();
         private int sortedColumnIndex = -1;
         private Comparator<T> sortedColumnComparator;
         private boolean isSortedUp;
